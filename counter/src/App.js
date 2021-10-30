@@ -1,13 +1,15 @@
-import React,{Component} from 'react';
-import Counter from "./counter"
-import './App.css';
+import React,{Component} from 'react'; // importing react and react.component from react package 
+import Counter from "./counter" // importing child component from counter.js
+import './App.css'; // styling for app.css
 
-class App extends Component{
+class App extends Component{ // creating a class component for react 
 
   render(){
     return(
-      <div className="App">
+      // app component 
+      <div className="App"> 
         <h1> creating a counter button</h1>
+        {/* create our child component Counter */}
         <Counter />
       </div>
 
@@ -16,4 +18,5 @@ class App extends Component{
 
 }
 
-export default App;
+export default App; // its is similiar to our return statement 
+// here we are returning the entire component 
