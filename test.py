@@ -6,10 +6,10 @@ def solve(final):
     for i in final:
     # 25 
     # generally checking the value is 25 
-    # then incrementing the value 
+    # then increment the count value 25count value by 1
         if i==25:
             a25=a25+1
-        if i==50:
+        if i==50: # when you get a 50 dollar u decerement the value of 25 and increment value of 50 by 1
             a25=a25-1
             a50=a50+1
         if i==100:
@@ -36,11 +36,12 @@ def solve(final):
     #not possible 
 
 
+final=[[25,25,50],[25,100],[25,25,50,50,100],[25,50,25,100]]
 
-# final=[25,50,25,100]
 # final=[25,100]
-final=[25,25,50,50,100]
-print(solve(final))
+# final=[25,25,50,50,100]
+for i in final:
+    print(i,"=",solve(i))
 
 
 
