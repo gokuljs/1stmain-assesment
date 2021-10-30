@@ -27,15 +27,6 @@ def solve(final):
         
 
 
-    # 50 can return 50 and 25 
-
-    # 100 can return 50 and 25
-
-    # 100 can return 3*25
-
-    #not possible 
-
-
 final=[[25,25,50],[25,100],[25,25,50,50,100],[25,50,25,100]]
 
 # final=[25,100]
