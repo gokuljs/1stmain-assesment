@@ -1,0 +1,15 @@
+.button{
+    padding: 5px;
+    margin:5px;
+    background-color: white;
+}
+.button2{
+    padding:5px;
+    background-color: white;
+}
+.button:hover{
+    background-color: green;
+}
+.button2:hover{
+    background-color: red;
+}

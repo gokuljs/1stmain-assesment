@@ -1,12 +1,15 @@
 import React,{Component} from 'react';
+import Counter from "./counter"
 import './App.css';
 
 class App extends Component{
+
   render(){
     return(
-      <dic ClassName="App">
+      <div className="App">
         <h1> creating a counter button</h1>
-      </dic>
+        <Counter />
+      </div>
 
     );
   }
